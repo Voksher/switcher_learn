@@ -1,4 +1,4 @@
-.background{
+body{
     background-color: #262626;
     height: 100vh;
 }
@@ -10,17 +10,9 @@
     position: absolute;
     -webkit-appearance: none;
     appearance: none;
-  
+
 }
 
-
-.switcher_input:checked + .switcher_text {
-    color: red;
-}
-.switcher_text{
-    color: aliceblue;
-    
-}
 .switcher_wrapper{
     border: 1px solid red;
     padding:5px 10px;
@@ -32,4 +24,8 @@ border-radius: 5px 0 0 5px;
 
 .last {
     border-radius: 0 5px 5px 0;
+}
+
+.switcher_input:checked + .switcher_wrapper {
+    color: red
 }
