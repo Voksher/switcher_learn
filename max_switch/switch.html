@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./index.css" type="text/css" media="screen">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <title>Switcher</title>
+</head>
+  <body>
+
+    <h1 class="h1">switcher example</h1>
+
+    <div class="switcher">
+      <label name="radio" for="radio_btn_one" class="radio_btn">
+        <input name="input" class="radio_btn__input" id="radio_btn_one" type="radio" value="radio_value_one" checked>
+        <div class="radio_btn__label first">
+          <span class="radio_btn__text">First</span>
+        </div>
+      </label>
+
+      <label name="radio" value="radio_value_two" for="radio_btn_two" class="radio_btn">
+        <input name="input" class="radio_btn__input" id="radio_btn_two" type="radio" value="radio_value_one">
+        <div class="radio_btn__label last">
+          <span class="radio_btn__text">Second</span>
+        </div>
+      </label>
+
+      <!-- <label name="radio" value="radio_value_two" for="radio_btn_three" class="radio_btn">
+        <input name="input" class="radio_btn__input" id="radio_btn_three" type="radio" value="radio_value_one">
+        <div class="radio_btn__label">
+          <span class="radio_btn__text">Second</span>
+        </div>
+      </label> -->
+    </div>
+
+  </body>
+</html>
