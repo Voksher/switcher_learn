@@ -1,6 +1,35 @@
 .background{
-    width: 680px;
-    height: 270px;
     background-color: #262626;
-    color: #bcbcbc;
+    height: 100vh;
+}
+.switcher{
+    display: inline-flex;
+}
+
+.switcher_input{
+    position: absolute;
+    -webkit-appearance: none;
+    appearance: none;
+  
+}
+
+
+.switcher_input:checked + .switcher_text {
+    color: red;
+}
+.switcher_text{
+    color: aliceblue;
+    
+}
+.switcher_wrapper{
+    border: 1px solid red;
+    padding:5px 10px;
+}
+
+.first {
+border-radius: 5px 0 0 5px;
+}
+
+.last {
+    border-radius: 0 5px 5px 0;
 }
